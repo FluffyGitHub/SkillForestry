@@ -1,0 +1,41 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/SkillViewStyle.uss?fileID=7433441132597879392&amp;guid=9e9199b1a433391428bc4c545d844c8f&amp;type=3#SkillViewStyle" />
+    <ui:VisualElement name="node-border" style="min-width: 300px; max-width: 300px;">
+        <ui:VisualElement name="contents">
+            <ui:VisualElement name="top">
+                <ui:VisualElement name="input" />
+                <ui:VisualElement name="divider" class="vertical" />
+                <ui:VisualElement name="skillContent" style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px; margin-left: 1px; margin-right: 1px; margin-top: 1px; margin-bottom: 1px;">
+                    <ui:VisualElement name="title">
+                        <ui:Label name="title-label" text="SkillBasic" class="unity-text-element unity-label" />
+                        <ui:VisualElement name="title-button-container">
+                            <ui:VisualElement name="collapse-button">
+                                <ui:VisualElement name="icon" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="costContainer" style="flex-direction: row; padding-left: 3px; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-top: 2px; margin-bottom: 2px;">
+                        <ui:Label text="Cost: " display-tooltip-when-elided="true" name="costLabel" style="padding-left: 0; padding-right: 0;" />
+                        <ui:Label text="1" display-tooltip-when-elided="true" name="cost" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="attributeContainer" style="flex-direction: row; padding-left: 3px; padding-right: 0; padding-top: 0; padding-bottom: 0; margin-top: 2px; margin-bottom: 2px;">
+                        <ui:Label text="Required Attribute  " display-tooltip-when-elided="true" name="attributeLabel" style="padding-left: 0; padding-right: 0;" />
+                        <ui:Label text="0" display-tooltip-when-elided="true" name="attribute" style="padding-left: 3px;" />
+                    </ui:VisualElement>
+                    <ui:Label text="This is a description" display-tooltip-when-elided="true" name="description" style="padding-left: 3px; padding-right: 0; max-width: 95%;" />
+                    <ui:VisualElement name="levelContainer" style="align-items: stretch; justify-content: flex-start; flex-direction: row-reverse; -unity-text-align: upper-left;">
+                        <ui:Label text="1" display-tooltip-when-elided="true" name="maxLevel" />
+                        <ui:Label text="/" display-tooltip-when-elided="true" name="levelDivider" />
+                        <ui:Label text="1" display-tooltip-when-elided="true" name="level" />
+                        <ui:Label text="Level: " display-tooltip-when-elided="true" name="levelLabel" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="divider" class="horizontal" />
+                <ui:VisualElement name="output">
+                    <ui:Label text="Requirement" display-tooltip-when-elided="true" name="requirement" style="margin-left: 4px; margin-right: 4px; margin-top: 4px; margin-bottom: 0; padding-top: 0;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="selection-border" picking-mode="Ignore" />
+</ui:UXML>

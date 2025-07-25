@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8897772672899435849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: Hohes Geschick
+  m_EditorClassIdentifier: 
+  skillName: Hohes Geschick
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 64000000
+  description: "10%-ige Chance auf vollst\xE4ndige Unversehrtheit nach einem Nahkampfangriff,
+    wenn der Spieler ausschlie\xDFlich leichte R\xFCstung tr\xE4gt."
+  skillRequirements:
+  - {fileID: -5733030660316474664}
+  - {fileID: -1604190986091345501}
+  alternateSkillRequirements: []
+  guid: 3c5fdf92a6c159642b28aefd6d55145d
+  position: {x: 486.07, y: -524.4019}
+--- !u!114 &-8444114135160480794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: Unbehindert
+  m_EditorClassIdentifier: 
+  skillName: Unbehindert
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 32000000
+  description: "Eine leichte R\xFCstung wiegt nichts und verlangsamt den Spieler
+    nicht, wenn sie getragen wird."
+  skillRequirements:
+  - {fileID: 3084867480039855596}
+  alternateSkillRequirements: []
+  guid: c0b57c661a1e83f439f8beaa3f89c65f
+  position: {x: -43.000046, y: -7.0000324}
+--- !u!114 &-6054079125102085472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85dde5dea2894f749966173c18d7959b, type: 3}
+  m_Name: Defensivspezialist
+  m_EditorClassIdentifier: 
+  skillName: Defensivspezialist
+  cost: 0100000001000000010000000100000001000000
+  requiredInvestment: 0
+  requiredAttributePoints: 0000000014000000280000003c00000050000000
+  description: "Steigert den R\xFCstungswert leichter R\xFCstungen um 20% pro Level"
+  skillRequirements: []
+  alternateSkillRequirements: []
+  guid: bbf4f9ebdf566d74689362c95a021a62
+  position: {x: 486.00003, y: 499.43735}
+  level: 2
+  _maxLevel: 5
+--- !u!114 &-5733030660316474664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: Passende Garnitur
+  m_EditorClassIdentifier: 
+  skillName: Passende Garnitur
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 46000000
+  description: "Zus\xE4tzlicher R\xFCstungsbonus von 25%, wenn ein passendes leichtes
+    R\xFCstungsset getragen wird."
+  skillRequirements:
+  - {fileID: 3084867480039855596}
+  alternateSkillRequirements: []
+  guid: 345b3030e93262d409f0b6679d97a2e3
+  position: {x: 917.45, y: -126.3826}
+--- !u!114 &-1604190986091345501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: "Windl\xE4ufer"
+  m_EditorClassIdentifier: 
+  skillName: "Windl\xE4ufer"
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 3c000000
+  description: "Die Ausdauer wird 50% schneller wiederhergestellt, wenn der Spieler
+    ausschlie\xDFlich leichte R\xFCstung tr\xE4gt."
+  skillRequirements:
+  - {fileID: -8444114135160480794}
+  alternateSkillRequirements: []
+  guid: d51c68d95b28b884f9e86de413e14e24
+  position: {x: -42.999966, y: -327.22504}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62aeda6b7e3409439c5f84ceec6d486, type: 3}
+  m_Name: "Skyrim leichte R\xFCstung"
+  m_EditorClassIdentifier: 
+  skillList:
+  - {fileID: -6054079125102085472}
+  - {fileID: 3084867480039855596}
+  - {fileID: -8444114135160480794}
+  - {fileID: -1604190986091345501}
+  - {fileID: -5733030660316474664}
+  - {fileID: -8897772672899435849}
+  _allSkillRequirements: 1
+--- !u!114 &3084867480039855596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: Passgenau
+  m_EditorClassIdentifier: 
+  skillName: Passgenau
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 1e000000
+  description: "25% R\xFCstungsbonus, wenn der Spieler ausschlie\xDFlich leichte
+    R\xFCstung tr\xE4gt."
+  skillRequirements:
+  - {fileID: -6054079125102085472}
+  alternateSkillRequirements: []
+  guid: 5bdc0265c49db9847acca4bbaac78536
+  position: {x: 485.99994, y: 200.01982}

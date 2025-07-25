@@ -1,0 +1,330 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6569389602132698566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: Aplha 3
+  m_EditorClassIdentifier: 
+  skillName: Aplha 3
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 00000000
+  description: Describe me
+  skillRequirements:
+  - {fileID: -388936950239036510}
+  alternateSkillRequirements:
+  - {fileID: -2050532280371036600}
+  guid: 601fd921141b0f246b5ef762d7ca572f
+  position: {x: 815.0001, y: 712}
+--- !u!114 &-4072938195736704250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: Aplha 1
+  m_EditorClassIdentifier: 
+  skillName: Aplha 1
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 00000000
+  description: Describe me
+  skillRequirements:
+  - {fileID: -3516486124082603903}
+  alternateSkillRequirements:
+  - {fileID: -2050532280371036600}
+  guid: bd55c8550ee071748b57466eb4af540e
+  position: {x: 247, y: 712}
+--- !u!114 &-3516486124082603903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: Option 2.1
+  m_EditorClassIdentifier: 
+  skillName: Option 2.1
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 00000000
+  description: Describe me
+  skillRequirements:
+  - {fileID: -1571498092360030372}
+  alternateSkillRequirements:
+  - {fileID: -4072938195736704250}
+  - {fileID: 4644177522480657051}
+  guid: bf285c5fd92f1334f9b243769aa0de34
+  position: {x: 247, y: 388.5219}
+--- !u!114 &-3178258502169953510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: Omega
+  m_EditorClassIdentifier: 
+  skillName: Omega
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 00000000
+  description: Describe me
+  skillRequirements:
+  - {fileID: -388936950239036510}
+  alternateSkillRequirements:
+  - {fileID: -1684893321319132915}
+  guid: 6fdc6d5d9d291d1408908cfb86748daf
+  position: {x: 1332.9998, y: 712}
+--- !u!114 &-2050532280371036600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: Aplha 2
+  m_EditorClassIdentifier: 
+  skillName: Aplha 2
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 00000000
+  description: Describe me
+  skillRequirements:
+  - {fileID: -4072938195736704250}
+  - {fileID: -6569389602132698566}
+  alternateSkillRequirements:
+  - {fileID: 8036033550866894054}
+  guid: 4557289351b8b4744b0d50543733c519
+  position: {x: 577.9998, y: 1047.4424}
+--- !u!114 &-1684893321319132915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85dde5dea2894f749966173c18d7959b, type: 3}
+  m_Name: Omega 2
+  m_EditorClassIdentifier: 
+  skillName: Omega 2
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 00000000
+  description: Describe me
+  skillRequirements:
+  - {fileID: -3178258502169953510}
+  alternateSkillRequirements: []
+  guid: 8372c33ce7ef68745aabe0c77c2c0a9a
+  position: {x: 1768.4263, y: 712}
+  level: 0
+  _maxLevel: 1
+--- !u!114 &-1571498092360030372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: Option 2
+  m_EditorClassIdentifier: 
+  skillName: Option 2
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 00000000
+  description: Describe me
+  skillRequirements:
+  - {fileID: 301387790433236353}
+  alternateSkillRequirements:
+  - {fileID: -3516486124082603903}
+  guid: 7f9a19addcd86424a9ed221dc964ea4e
+  position: {x: 247, y: 94}
+--- !u!114 &-388936950239036510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: option  1.1
+  m_EditorClassIdentifier: 
+  skillName: option  1.1
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 00000000
+  description: Describe me
+  skillRequirements:
+  - {fileID: 6956261795037700083}
+  alternateSkillRequirements:
+  - {fileID: -6569389602132698566}
+  - {fileID: -3178258502169953510}
+  guid: ea1c453bcc5ddbe4bb90670a6a24eb9f
+  position: {x: 967.99994, y: 389.00003}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62aeda6b7e3409439c5f84ceec6d486, type: 3}
+  m_Name: Another Example
+  m_EditorClassIdentifier: 
+  skillList:
+  - {fileID: 4141252055356870761}
+  - {fileID: 6956261795037700083}
+  - {fileID: -1571498092360030372}
+  - {fileID: -3516486124082603903}
+  - {fileID: -388936950239036510}
+  - {fileID: 8036033550866894054}
+  - {fileID: 301387790433236353}
+  - {fileID: -4072938195736704250}
+  - {fileID: -2050532280371036600}
+  - {fileID: -6569389602132698566}
+  - {fileID: -3178258502169953510}
+  - {fileID: -1684893321319132915}
+  - {fileID: 4644177522480657051}
+  _allSkillRequirements: 0
+--- !u!114 &301387790433236353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: Basic Skill
+  m_EditorClassIdentifier: 
+  skillName: Basic Skill
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 00000000
+  description: Describe me
+  skillRequirements:
+  - {fileID: 4141252055356870761}
+  alternateSkillRequirements:
+  - {fileID: -1571498092360030372}
+  - {fileID: 6956261795037700083}
+  guid: f7eef652a6da7ab48995aa3c52c63be4
+  position: {x: 621.99976, y: -7.940399}
+--- !u!114 &4141252055356870761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  skillName: Start
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 00000000
+  description: Describe me
+  skillRequirements: []
+  alternateSkillRequirements:
+  - {fileID: 301387790433236353}
+  guid: 66676ae2b6eece049b3980bc534c87f9
+  position: {x: 622, y: -308}
+--- !u!114 &4644177522480657051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: Beta
+  m_EditorClassIdentifier: 
+  skillName: Beta
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 00000000
+  description: Describe me
+  skillRequirements:
+  - {fileID: -3516486124082603903}
+  alternateSkillRequirements: []
+  guid: 762e6e5a0f6530c4f8d31163b856daa5
+  position: {x: -233.68153, y: 687}
+--- !u!114 &6956261795037700083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: Option 1
+  m_EditorClassIdentifier: 
+  skillName: Option 1
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 00000000
+  description: Describe me
+  skillRequirements:
+  - {fileID: 301387790433236353}
+  alternateSkillRequirements:
+  - {fileID: -388936950239036510}
+  guid: 5fdd90d0966d44d4d89078cdda48212e
+  position: {x: 968, y: 94}
+--- !u!114 &8036033550866894054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: Major Skill
+  m_EditorClassIdentifier: 
+  skillName: Major Skill
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 00000000
+  description: Describe me
+  skillRequirements:
+  - {fileID: -2050532280371036600}
+  alternateSkillRequirements: []
+  guid: 3554b63089fb89b4d8d33889e9ee7458
+  position: {x: 577.9998, y: 1358.8214}

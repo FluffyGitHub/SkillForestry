@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/SkillTree%20Styles.uss?fileID=7433441132597879392&amp;guid=f56115dbefa1e9244915f71e3a4c0438&amp;type=3#SkillTree Styles" />
+    <ui:VisualElement name="mainContainer" style="width: 100%; height: 100%;">
+        <ui:VisualElement name="menuBar" style="height: 100px; background-color: rgb(116, 125, 140); flex-direction: row; justify-content: center; align-items: center;">
+            <ui:Label text="Attribute: " display-tooltip-when-elided="true" name="attributeLabel" />
+            <ui:Label text="0" display-tooltip-when-elided="true" name="attribute" />
+            <ui:Button text="Gain Attribute" display-tooltip-when-elided="true" name="bttn_AttributeGain" style="background-color: rgb(255, 255, 255);" />
+            <uie:IntegerField value="1" name="attributeToGain" />
+            <ui:Label text="Skill Points: " display-tooltip-when-elided="true" name="skillPointsLabel" />
+            <ui:Label text="0" display-tooltip-when-elided="true" name="skillPoints" />
+            <ui:Button text="Gain Skill Points" display-tooltip-when-elided="true" name="bttn_SkillPointGain" style="background-color: rgb(255, 255, 255);" />
+            <uie:IntegerField value="1" name="pointsToGain" />
+            <ui:Label text="Skill Points used: " display-tooltip-when-elided="true" name="skillPointsSpendLabel" />
+            <ui:Label text="0" display-tooltip-when-elided="true" name="skillPointsSpend" />
+            <ui:Button text="Reset Skill Tree" display-tooltip-when-elided="true" name="bttn_Reset" style="background-color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+        <SkillTreeView focusable="true" style="width: 100%; height: 100%;" />
+    </ui:VisualElement>
+</ui:UXML>

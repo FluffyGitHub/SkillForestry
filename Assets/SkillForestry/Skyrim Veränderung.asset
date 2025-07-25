@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7646369191513751900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: "Ver\xE4nderung (Experte)"
+  m_EditorClassIdentifier: 
+  skillName: "Ver\xE4nderung (Experte)"
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 4b000000
+  description: " \t\r\nDer Spieler kann Ver\xE4nderungszauber der Schwierigkeit Experte
+    f\xFCr die H\xE4lfte des Magickas wirken."
+  skillRequirements:
+  - {fileID: 3758175109600826864}
+  alternateSkillRequirements: []
+  guid: 407ee2cea405dea4fa400e6a5306a499
+  position: {x: 973, y: -450}
+--- !u!114 &-7549606546794109257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: "Doppelter Ver\xE4nderungszauber"
+  m_EditorClassIdentifier: 
+  skillName: "Doppelter Ver\xE4nderungszauber"
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 14000000
+  description: "Durch das doppelte Wirken eines Ver\xE4nderungszaubers sind die Effekte
+    viel wirkungsvoller."
+  skillRequirements:
+  - {fileID: -3021026827114840890}
+  alternateSkillRequirements: []
+  guid: 8df05212d81b8344a8185cb2eae2ffbe
+  position: {x: 118, y: 231}
+--- !u!114 &-5244147105836580385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: "Stabilit\xE4t"
+  m_EditorClassIdentifier: 
+  skillName: "Stabilit\xE4t"
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 46000000
+  description: "Verl\xE4ngert die Dauer von Ver\xE4nderungszaubern um 50%"
+  skillRequirements:
+  - {fileID: 3758175109600826864}
+  alternateSkillRequirements: []
+  guid: 0c7c009d356da0141a8b92d3ab45ff41
+  position: {x: 466.99994, y: -413.99988}
+--- !u!114 &-3588953147423555564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: "Ver\xE4nderung (Meister)"
+  m_EditorClassIdentifier: 
+  skillName: "Ver\xE4nderung (Meister)"
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 64000000
+  description: "Der Spieler Ver\xE4nderungszauber der Schwierigkeit Meister f\xFCr
+    die H\xE4lfte des Magickas wirken."
+  skillRequirements:
+  - {fileID: -7646369191513751900}
+  alternateSkillRequirements: []
+  guid: c745b92aac3a0de42a9c887133b7d071
+  position: {x: 1319.1703, y: -630.2042}
+--- !u!114 &-3021026827114840890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: "Ver\xE4nderung (Novice)"
+  m_EditorClassIdentifier: 
+  skillName: "Ver\xE4nderung (Novice)"
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 00000000
+  description: "Der Spieler kann Ver\xE4nderungszauber der Schwierigkeit Novize f\xFCr
+    die H\xE4lfte des Magickas wirken."
+  skillRequirements: []
+  alternateSkillRequirements: []
+  guid: 59ee40da7aa61c948a00de2933d65aa5
+  position: {x: 466.99994, y: 562.91986}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62aeda6b7e3409439c5f84ceec6d486, type: 3}
+  m_Name: "Skyrim Ver\xE4nderung"
+  m_EditorClassIdentifier: 
+  skillList:
+  - {fileID: -3021026827114840890}
+  - {fileID: 7826553824117287484}
+  - {fileID: 3758175109600826864}
+  - {fileID: -7646369191513751900}
+  - {fileID: -3588953147423555564}
+  - {fileID: -7549606546794109257}
+  - {fileID: 9077534007383575597}
+  - {fileID: 7434479440861057511}
+  - {fileID: 802795542600344735}
+  - {fileID: -5244147105836580385}
+  _allSkillRequirements: 1
+--- !u!114 &802795542600344735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: Atronach
+  m_EditorClassIdentifier: 
+  skillName: Atronach
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 64000000
+  description: Du absorbierst 30% der Magicka jedes Zaubers, der auf dich wirkt.
+  skillRequirements:
+  - {fileID: -7646369191513751900}
+  alternateSkillRequirements: []
+  guid: 2b85f552e91805247a146d92c16aad54
+  position: {x: 699, y: -747}
+--- !u!114 &3758175109600826864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: "Ver\xE4nderung (Adept)"
+  m_EditorClassIdentifier: 
+  skillName: "Ver\xE4nderung (Adept)"
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 32000000
+  description: " \t\r\nDer Spieler kann Ver\xE4nderungszauber der Schwierigkeit Adept
+    f\xFCr die H\xE4lfte des Magickas wirken."
+  skillRequirements:
+  - {fileID: 7826553824117287484}
+  alternateSkillRequirements: []
+  guid: d2b7ae597de453b48bfae2dad185bd2e
+  position: {x: 722, y: -130.5}
+--- !u!114 &7434479440861057511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85dde5dea2894f749966173c18d7959b, type: 3}
+  m_Name: Magieresistenz
+  m_EditorClassIdentifier: 
+  skillName: Magieresistenz
+  cost: 010000000000000000000000
+  requiredInvestment: 0
+  requiredAttributePoints: 1e0000003200000046000000
+  description: Blockt 10% per Level der Wirkung eines Zaubers ab.
+  skillRequirements:
+  - {fileID: 7826553824117287484}
+  alternateSkillRequirements: []
+  guid: e50bd601212f7e448a6de482c08a006a
+  position: {x: 1092.9996, y: -33.500023}
+  level: 0
+  _maxLevel: 3
+--- !u!114 &7826553824117287484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fadf1eab55f66b4eaed73f76054f132, type: 3}
+  m_Name: "Ver\xE4nderung (Lehrling)"
+  m_EditorClassIdentifier: 
+  skillName: "Ver\xE4nderung (Lehrling)"
+  cost: 01000000
+  requiredInvestment: 0
+  requiredAttributePoints: 19000000
+  description: "Der Spieler kann Ver\xE4nderungszauber der Schwierigkeit Lehrling
+    f\xFCr die H\xE4lfte des Magickas wirken."
+  skillRequirements:
+  - {fileID: -3021026827114840890}
+  alternateSkillRequirements: []
+  guid: 7c3b0aad9baf21c41842f81bb79d9825
+  position: {x: 619.99994, y: 200.99997}
+--- !u!114 &9077534007383575597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85dde5dea2894f749966173c18d7959b, type: 3}
+  m_Name: "Magierr\xFCstung"
+  m_EditorClassIdentifier: 
+  skillName: "Magierr\xFCstung"
+  cost: 010000000100000001000000
+  requiredInvestment: 0
+  requiredAttributePoints: 1e0000003200000046000000
+  description: "Schutzzauber wie Steinhaut sind zweimal so stark, wenn keine R\xFCstung
+    getragen wird."
+  skillRequirements:
+  - {fileID: 7826553824117287484}
+  alternateSkillRequirements: []
+  guid: d71d98078c973274197903fba4275672
+  position: {x: 313.99985, y: -123.99999}
+  level: 0
+  _maxLevel: 3
